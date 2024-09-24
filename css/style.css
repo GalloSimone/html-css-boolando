@@ -5,7 +5,9 @@
     margin: 0;
     padding: 0;
   }
-  
+  img{
+    max-width: 100%;
+  }
   /* # UTILS */
   
   .container {
@@ -21,10 +23,20 @@
     align-content: center;
     justify-content: center;
     gap: 2rem;
+    padding: 5rem 0;
    }
    .products .products-card{
     flex: 1 0 30%;
     /* debug */
-    background-color: grey;
+    background-color: white;
     min-height: 300px;
+  }
+  .products-card,.card-text{
+    background-color: white;
+  }
+  .new-price{
+    color: red;
+  }
+  .old-price{
+    color: black;
   }
